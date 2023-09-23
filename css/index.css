@@ -332,8 +332,6 @@ button {
     flex-direction: row-reverse;
     width: 100%;
     background-color: rgb(241, 241, 241);
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 0px 10px 2px black;
     margin-top: auto;
     justify-content: space-evenly;
@@ -356,13 +354,13 @@ button {
 
 .connectPic {
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-right: 5px;
 }
 
 .connectPic:hover {
-    transform: scale(1.1); 
+    transform: scale(1.05); 
 }
 
 @media (max-width: 600px) {
