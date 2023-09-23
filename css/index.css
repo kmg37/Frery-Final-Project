@@ -95,7 +95,7 @@ body {
     font-family: 'Staatliches', cursive;
     font-size: 30px;
     padding-bottom: 125px;
-    height: 700px;
+    height: 100vh;
 }
 
 @keyframes gradient {
@@ -434,6 +434,11 @@ button {
         font-size: 23px;
     }
 
+    .avatar {
+        height: 75px;
+        width: 75px;
+    }
+
     .fieldInputs, 
     .fieldMessage,
     input,
@@ -459,6 +464,10 @@ button {
 
     .headerList{
         font-size: medium;
+    }
+
+    #headerLanding {
+        height: 700px;
     }
 }
 
